@@ -3,6 +3,8 @@ package com.joysistvi.stage1.day4;
 public class Activity2_Maulas {
 
     public static void main(String[] args) {
+        System.out.println("\nSee My Expense Tracker Program Below");
+        System.out.println();
 
         double income = 50000;
         double foodAllowance = 15000;
@@ -20,12 +22,12 @@ public class Activity2_Maulas {
         double remainingBalance = income - (foodAllowance + transportation + rent + utilityBill);
 
         // Display results
-        System.out.printf("Income: %.0f%n", income);
-        System.out.printf("Food Allowance: %.1f %%%n", foodPercent);
-        System.out.printf("Transportation: %.1f %%%n", transportationPercent);
-        System.out.printf("Rent: %.1f %%%n", rentPercent);
-        System.out.printf("Utility Bill: %.1f %%%n", utilityPercent);
-        System.out.printf("Remaining Balance: %.0f%n", remainingBalance);
+        System.out.printf("\tIncome: %.0f%n", income);
+        System.out.printf("\tFood Allowance: %.1f %%%n", foodPercent);
+        System.out.printf("\tTransportation: %.1f %%%n", transportationPercent);
+        System.out.printf("\tRent: %.1f %%%n", rentPercent);
+        System.out.printf("\tUtility Bill: %.1f %%%n", utilityPercent);
+        System.out.printf("\tRemaining Balance: %.0f%n", remainingBalance);
 
 
 
