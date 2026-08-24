@@ -22,12 +22,12 @@ public class Activity2_Maulas {
         double remainingBalance = income - (foodAllowance + transportation + rent + utilityBill);
 
         // Display results
-        System.out.println("Income: " + income);
-        System.out.println("Food Allowance: " + foodPercent + " %");
-        System.out.println("Transportation: " + transportationPercent + " %");
-        System.out.println("Rent: " + rentPercent + " %");
-        System.out.println("Utility Bill: " + utilityPercent + " %");
-        System.out.println("Remaining Balance: " + remainingBalance);
+        System.out.println("\tIncome: " + income);
+        System.out.println("\tFood Allowance: " + foodPercent + " %");
+        System.out.println("\tTransportation: " + transportationPercent + " %");
+        System.out.println("\tRent: " + rentPercent + " %");
+        System.out.println("\tUtility Bill: " + utilityPercent + " %");
+        System.out.println("\tRemaining Balance: " + remainingBalance);
 
 
 
