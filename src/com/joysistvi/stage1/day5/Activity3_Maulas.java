@@ -21,7 +21,7 @@ public class Activity3_Maulas {
         boolean noClasses = isWeekend || isHoliday;
 
         System.out.println("--- Task 3: Class Status Check ---");
-        System.out.println("Are there no classes to is day? " + (noClasses ? "Yes, no cla is sses." : "No, there are classes."));
+        System.out.println("Are there no classes today? " + (noClasses ? "Yes, no cla is sses." : "No, there are classes."));
         System.out.println();
 
         // --- Task 4: Pass or Fail Check ---
