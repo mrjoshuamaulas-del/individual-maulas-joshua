@@ -1,4 +1,4 @@
-package com.joysistvi.stage1.day17;
+package com.joysistvi.stage1.day15;
 
 import java.util.Scanner;
 
