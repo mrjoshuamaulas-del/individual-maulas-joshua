@@ -15,4 +15,9 @@ public class ContractualEmployee extends Employee {
     public double computeSalary() {
         return hoursWorked * hourlyRate;
     }
+
+    @Override
+    public String getEmployeeType() {
+        return "Contractual";
+    }
 }

@@ -13,4 +13,9 @@ public class SalesEmployee extends Employee {
     public double computeSalary() {
         return baseSalary + commission;
     }
+
+    @Override
+    public String getEmployeeType() {
+        return "Sales";
+    }
 }

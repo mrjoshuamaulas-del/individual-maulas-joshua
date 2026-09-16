@@ -15,6 +15,10 @@ public class Employee {
     }
 
     public void printPayslip() {
-        System.out.println(name + "'s salary: " + computeSalary());
+        System.out.println("[" + getEmployeeType() + "] " + name + "'s salary: " + computeSalary());
+    }
+
+    public String getEmployeeType() {
+        return "Employee";
     }
 }
